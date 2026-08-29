@@ -116,6 +116,19 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 .evidence-note { margin: 34px 0 48px; padding: 24px; border-left: 5px solid var(--blue); border-radius: 0 14px 14px 0; background: var(--sky); }
 .evidence-note strong { color: var(--ink); font-family: Georgia, serif; font-size: 1.2rem; }
 .evidence-note p { margin-bottom: 0; }
+.attendance-demo { margin: 30px 0; overflow-x: auto; border: 1px solid var(--line); border-radius: 14px; background: var(--white); box-shadow: var(--shadow); }
+.attendance-demo-bar { min-width: 920px; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 16px 18px; color: var(--white); background: var(--ink); }
+.attendance-demo-bar span { color: #c9d7e4; font-size: .82rem; }
+.attendance-demo table { width: 100%; min-width: 920px; border-collapse: collapse; font-size: .78rem; }
+.attendance-demo th, .attendance-demo td { padding: 10px 12px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); text-align: center; white-space: nowrap; }
+.attendance-demo th { color: var(--ink); background: var(--sky); font-weight: 800; }
+.attendance-demo th:nth-child(-n+4), .attendance-demo td:nth-child(-n+4) { text-align: left; }
+.attendance-demo tbody tr:last-child td { border-bottom: 0; }
+.attendance-demo .status { font-size: 1rem; }
+.attendance-demo .present { background: #edf7ef; }
+.attendance-demo .absent { background: #fff0f0; }
+.attendance-demo .late { background: #fff8e7; }
+.attendance-demo .note { background: #eef4fb; }
 .contact-banner { color: var(--white); background: var(--ink); }
 .contact-banner .eyebrow { color: #96c7e4; }
 .contact-banner p { max-width: 700px; color: #cfdae5; }
