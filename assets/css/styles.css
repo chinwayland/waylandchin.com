@@ -93,7 +93,6 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 .timeline article::before { content: ""; position: absolute; left: -32px; top: 7px; width: 12px; height: 12px; border-radius: 50%; background: var(--blue); }
 .document-list { display: grid; gap: 18px; }
 .document-card { padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--white); }
-.document-card[data-private="true"] { background: #f2f2f0; }
 .stage-framework { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 28px 0 42px; }
 .stage-framework div { position: relative; min-height: 118px; padding: 20px 18px 18px 64px; border: 1px solid var(--line); border-radius: 14px; background: var(--white); }
 .stage-framework span { position: absolute; left: 18px; top: 18px; color: var(--blue); font-family: Georgia, serif; font-size: 1.45rem; font-weight: 700; }
@@ -225,9 +224,12 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 .footer-bottom { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); color: #8fa1b2; font-size: .85rem; }
 
 @media (max-width: 860px) {
-  .menu-button { display: block; }
-  .site-nav { position: absolute; left: 20px; right: 20px; top: 72px; display: none; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--white); box-shadow: var(--shadow); }
-  .site-nav.open { display: grid; }
+  .menu-ready .menu-button { display: block; min-height: 44px; }
+  html:not(.menu-ready) .header-inner { flex-wrap: wrap; padding-block: 14px; }
+  html:not(.menu-ready) .site-nav { flex-wrap: wrap; }
+  .menu-ready .site-nav { position: absolute; left: 20px; right: 20px; top: 100%; max-height: calc(100dvh - 100px); overflow-y: auto; display: none; padding: 18px; border: 1px solid var(--line); border-radius: 14px; background: var(--white); box-shadow: var(--shadow); }
+  .menu-ready .site-nav.open { display: grid; }
+  .site-nav a { display: flex; align-items: center; min-height: 44px; }
   .hero-grid, .content-grid { grid-template-columns: 1fr; }
   .portrait-placeholder { width: min(320px, 80%); margin-inline: auto; }
   .proof-grid { grid-template-columns: 1fr; }
@@ -260,3 +262,5 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 .contact-email { overflow-wrap: anywhere; user-select: text; }
+
+a:focus-visible, button:focus-visible { outline: 3px solid #1f6aa5; outline-offset: 4px; }
