@@ -7,7 +7,6 @@ Personal professional platform for Wayland Chin.
 - Home
 - Education & Innovation
 - Educational Innovation Projects
-- Business & Operations
 - About
 - CV & Documents
 - Contact
@@ -18,3 +17,5 @@ The Pages workflow also builds the public travel calendar from the separate
 `chinwayland/travel-calendar` source repository. Its private TripIt URL is stored
 only in this repository's `TRIPIT_ICAL_URL` Actions secret, and the published
 calendar is refreshed every 15 minutes.
+
+The site presents one unified professional profile. The former `/business/` route redirects to `/about/` for existing bookmarks.
