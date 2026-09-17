@@ -258,3 +258,18 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Contact options work without an external email-app handoff. */
+.contact-email { overflow-wrap: anywhere; }
+.email-options > summary { cursor: pointer; list-style: none; }
+.email-options > summary::-webkit-details-marker { display: none; }
+.email-options > summary::after { content: '+'; margin-left: 12px; }
+.email-options[open] > summary::after { content: '−'; }
+.email-options-panel { margin-top: 20px; }
+.email-options button { font: inherit; font-weight: 800; cursor: pointer; }
+.email-options [hidden] { display: none; }
+.email-options .email-help { margin-top: 16px; }
+.email-copy-status:empty { display: none; }
+.email-copy-status { font-weight: 700; }
+.email-options summary:focus-visible,
+.email-options button:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }

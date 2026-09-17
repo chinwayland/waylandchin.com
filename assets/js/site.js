@@ -17,3 +17,17 @@ document.querySelectorAll('.site-nav a').forEach((link) => {
 document.querySelectorAll('[data-year]').forEach((node) => {
   node.textContent = new Date().getFullYear();
 });
+
+// Reveal copy controls only when JavaScript is available.
+document.querySelectorAll('[data-copy-email]').forEach((button) => {
+  button.hidden = false;
+  button.addEventListener('click', async () => {
+    const status = button.closest('.email-options').querySelector('.email-copy-status');
+    try {
+      await navigator.clipboard.writeText(button.dataset.copyEmail);
+      status.textContent = 'Email address copied.';
+    } catch {
+      status.textContent = 'Copy isn’t available here. Select and copy the email address above, or choose Open Gmail.';
+    }
+  });
+});
