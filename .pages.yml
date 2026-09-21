@@ -1,0 +1,4496 @@
+{
+  "media": [
+    {
+      "name": "images",
+      "label": "Images",
+      "input": "assets/images",
+      "output": "/assets/images",
+      "extensions": [
+        "png",
+        "jpg",
+        "jpeg",
+        "webp",
+        "gif"
+      ],
+      "rename": "safe"
+    },
+    {
+      "name": "documents",
+      "label": "Public PDFs",
+      "input": "assets/documents",
+      "output": "/assets/documents",
+      "extensions": [
+        "pdf"
+      ]
+    }
+  ],
+  "content": [
+    {
+      "name": "site",
+      "label": "Site identity & contact",
+      "type": "file",
+      "path": "content/site.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "tagline",
+          "label": "Tagline",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "footer_description",
+          "label": "Footer Description",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "linkedin",
+          "label": "Linkedin",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "github",
+          "label": "Github",
+          "type": "string",
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "home",
+      "label": "Home",
+      "type": "file",
+      "path": "content/home.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Curriculum • Educational Technology • Operations",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: I design better systems for teaching and work.",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: I’m Wayland Chin—a curriculum developer, educational technology s",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Label: Explore education",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Link destination: Explore education",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Label: Download CV (PDF)",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Link destination: Download CV (PDF)",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Label: WC",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Curriculum • Technology • Operations",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: 7+ years",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Chinese higher education",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: 120 lessons",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: maintained annually",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: 700–800 students",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Label: supported by programme systems each semester",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Featured work",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Heading: Practical systems built for real classrooms.",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: View all projects →",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Link destination: View all projects →",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Curriculum",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Heading: Eight-Stage Lesson Framework",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Text: A repeatable architecture for classroom-ready 80-minute universit",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_025",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: Assessment",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Heading: Speaking Assessment Platform",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Text: A browser-based interface that organizes prompts, timing, and exa",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_030",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: Programme systems",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Heading: Centralized Attendance",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Text: A shared system used daily by seven instructors and the programme",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_035",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_037",
+          "label": "Label: Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Heading: Semester Calendar Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Text: A tested Python-powered macOS app that turns Excel timetables int",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_040",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Label: Let’s talk",
+          "type": "string"
+        },
+        {
+          "name": "field_043",
+          "label": "Heading: Teaching, curriculum, technology, or operations.",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Text: For professional opportunities and collaborations, contact me dir",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_045",
+          "label": "Label: Contact me",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Link destination: Contact me",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "education",
+      "label": "Education",
+      "type": "file",
+      "path": "content/education.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Education & Innovation",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Education works better when the system around the teacher works b",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: I teach university English and develop the curriculum, assessment",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Label: View projects",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Link destination: View projects",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Label: CV & documents",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Link destination: CV & documents",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Heading: My approach",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Text: My work begins with direct observation: identify where a lesson o",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_012",
+          "label": "Heading: Teaching scope",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: More than seven years of experience in Chinese higher education.",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Approximately 100–125 undergraduate students taught each semester",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Approximately 60 lessons delivered per semester across Elementary",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: Approximately 100–125 individual speaking assessments administere",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Heading: Curriculum contribution",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Text: I co-developed the programme curriculum, created approximately fi",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_019",
+          "label": "Text: Lessons can include multiple instructional stages, student worksh",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_020",
+          "label": "Heading: Qualifications",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Master of Business Administration, University of the People",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Bachelor of Science in Computer Science, University of the People",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Label: Cambridge CELTA, Pass",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Label: CompTIA Network+",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Google certificates in Project Management, Data Analytics, IT Aut",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: At a glance",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Heading: Current focus",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Text: University English, curriculum design, educational technology, as",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_029",
+          "label": "Label: 120",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Label: lessons maintained annually",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Label: 7 instructors + manager",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: using centralized attendance",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: English • Cantonese • Mandarin",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Label: working languages",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "projects",
+      "label": "Projects",
+      "type": "file",
+      "path": "content/projects.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Educational Innovation Projects",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: From classroom friction to practical systems.",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: Each case study begins with a real teaching or operational proble",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Label: Curriculum",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Heading: Eight-Stage Lesson Framework",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Text: A repeatable architecture for 80-minute university English lesson",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Assessment",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Heading: Speaking Assessment Platform",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Text: A browser-based interface that organizes prompts, timing, and exa",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_014",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: AI & curriculum",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Heading: AI-Assisted Curriculum Development",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Text: A human-controlled workflow that uses AI while enforcing CEFR lev",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_019",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Programme systems",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Heading: Centralized Attendance Tracking",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Text: A shared attendance system used daily by seven instructors and th",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_024",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Heading: Semester Calendar Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Text: A tested Python-powered macOS app that converts Excel timetables ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_029",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Label: Assessment operations",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Heading: Assessment Workflow Modernization",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Text: A selective automation workflow combining ZipGrade-supported obje",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_034",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Link destination: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Label: Faculty support",
+          "type": "string"
+        },
+        {
+          "name": "field_037",
+          "label": "Heading: Digital Enablement",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Text: Practical support connecting colleagues to Microsoft 365, shared ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_039",
+          "label": "Label: View project →",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Link destination: View project →",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "about",
+      "label": "About",
+      "type": "file",
+      "path": "content/about.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: About",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Wayland Chin",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: Curriculum developer, educational technology specialist, universi",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: A systems-minded educator",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: I currently work in Jinhua, Zhejiang, China, where I teach univer",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Text: I hold an MBA and a B.S. in Computer Science from the University ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Text: My earlier experience includes hospitality reservations, remote t",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Label: View CV & documents",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Link destination: View CV & documents",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: Contact me",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Link destination: Contact me",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: WC",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Curriculum • Technology • Operations",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "documents",
+      "label": "Documents",
+      "type": "file",
+      "path": "content/documents.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: CV & Documents",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Professional documents",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: View or download my academic CV and educational innovation portfo",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Label: PDF • 2 pages • v1.2",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Heading: Academic CV",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Text: University teaching, curriculum development, educational technolo",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Label: Download academic CV",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Link destination: Download academic CV",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: View CV",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Link destination: View CV",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: PDF • 21 pages • v0.6",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Heading: Educational Innovation Portfolio",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Text: A downloadable overview of seven case studies. The website contai",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_016",
+          "label": "Label: Download portfolio",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Link destination: Download portfolio",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: View portfolio",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Link destination: View portfolio",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Text: Explore project case studies →",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        }
+      ]
+    },
+    {
+      "name": "contact",
+      "label": "Contact",
+      "type": "file",
+      "path": "content/contact.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Contact",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Start a professional conversation.",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: I welcome enquiries about university teaching, curriculum develop",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Label: Email",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Text: Email is the best way to contact me directly.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Label: Open Gmail",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Text: Using another email service? Select and copy the address above in",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_012",
+          "label": "Heading: LinkedIn",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Text: Professional background, experience, and connections.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Visit LinkedIn →",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Link destination: Visit LinkedIn →",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Heading: GitHub",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Text: Public code, web projects, and technical work.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Visit GitHub →",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Link destination: Visit GitHub →",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "projects-ai-assisted-curriculum",
+      "label": "Project: Ai Assisted Curriculum",
+      "type": "file",
+      "path": "content/projects-ai-assisted-curriculum.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 03 • AI & Curriculum",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: AI-Assisted Curriculum Development",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: A human-controlled workflow that turns AI-assisted drafts into CE",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: Challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: AI can accelerate a first draft, but a first draft is not a curri",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Heading: Design response",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Text: I developed a human-controlled production workflow around the Eig",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Heading: Quality-controlled workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: Define",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Set the outcome, CEFR range, and student action.",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Generate",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: Create a constrained draft for the individual stage.",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Check",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Label: Review language level, accuracy, instructions, and cognitive load",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Complete",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Add the activity, image, audio, answers, and teacher support.",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Label: 05",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Label: Teach",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Observe timing, comprehension, engagement, and usability.",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: 06",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: Revise",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Label: Improve the shared source so the next class benefits.",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Heading: Evidence from a production lesson unit",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Text: The examples below come from the final, team-accessible version o",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_031",
+          "label": "Label: Student-facing speaking stage.",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: Audio-supported listening stage.",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: Purpose-built visual practice.",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Label: Teacher-ready support.",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Label: The final product is not raw AI output.",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Text: It combines instructional decisions, CEFR-level editing, visual c",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_037",
+          "label": "Heading: Human quality gates",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "List item: CEFR control: vocabulary, grammar, and instructions must be ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_039",
+          "label": "List item: Accuracy: facts, maps, directions, examples, transcripts, an",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_040",
+          "label": "List item: Teachability: each stage must support the intended interacti",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_041",
+          "label": "List item: Answerability: every closed task needs an unambiguous answer",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_042",
+          "label": "List item: Teacher usability: materials should be ready to teach withou",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_043",
+          "label": "List item: Print readability: layout, contrast, spacing, and image deta",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_044",
+          "label": "Heading: Reach and limits",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Text: This workflow supports the continuing development and refinement ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_046",
+          "label": "Heading: Lesson learned",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Text: Generation speed matters only when a disciplined review process t",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_048",
+          "label": "Label: Production example",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Heading: Unit 5",
+          "type": "string"
+        },
+        {
+          "name": "field_050",
+          "label": "Text: 53 pages3 complete lessons24 instructional stages2 original audio",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_051",
+          "label": "Label: Annual scale",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Heading: 120 lessons",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Text: Maintained across two academic semesters, with worksheets, visual",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_054",
+          "label": "Label: Principle",
+          "type": "string"
+        },
+        {
+          "name": "field_055",
+          "label": "Heading: AI assists. Teachers decide.",
+          "type": "string"
+        },
+        {
+          "name": "field_056",
+          "label": "Text: Curriculum quality comes from decisions about language level, seq",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        }
+      ]
+    },
+    {
+      "name": "projects-assessment-modernization",
+      "label": "Project: Assessment Modernization",
+      "type": "file",
+      "path": "content/projects-assessment-modernization.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 06 • Assessment Operations",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Assessment Workflow Modernization",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: Using automation for repetitive objective marking while preservin",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: The challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: Multiple-choice examinations created a large volume of repetitive",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Text: The opportunity was not to automate assessment indiscriminately. ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Label: Automate",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Label: Objective response handling",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Multiple-choice capture and checking",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: Preserve",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Teacher judgment",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Speaking, writing, interpretation, and feedback",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Heading: My contribution",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Text: I advocated for the use of ZipGrade and bubble-sheet responses fo",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_017",
+          "label": "Label: Clear role boundary",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Text: The programme coordinator is responsible for creating the examina",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_019",
+          "label": "Heading: A connected assessment cycle",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Prepare",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Text: The responsible colleague creates the programme examination.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_023",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Label: Format",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Text: Objective responses are arranged for clear bubble-sheet capture.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_026",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: Scan",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Text: ZipGrade checks multiple-choice responses without manual item-by-",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_029",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Label: Review",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Text: Teachers retain responsibility for tasks that require professiona",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_032",
+          "label": "Label: 05",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: Prepare students",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Text: Revision lessons reinforce the language, skills, and task types s",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_035",
+          "label": "Heading: Evidence from the teaching programme",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Text: The programme’s final, team-accessible materials show two complem",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_037",
+          "label": "Label: Safe reconstruction • Objective marking",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Label: Practice response sheet",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Label: Illustrative only",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_043",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Heading: Machine-readable where appropriate",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Text: Multiple-choice responses can be captured consistently, removing ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_046",
+          "label": "Label: Verified source • Student preparation",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Label: Final Exam Review",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: Writing review",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Label: Complete sentences",
+          "type": "string"
+        },
+        {
+          "name": "field_050",
+          "label": "Label: Fragments and corrections",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Label: Guided practice",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Label: Answer checking",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Heading: Aligned without copying live exams",
+          "type": "string"
+        },
+        {
+          "name": "field_054",
+          "label": "Text: The review unit gives students structured practice in the relevan",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_055",
+          "label": "Heading: Why the workflow matters",
+          "type": "string"
+        },
+        {
+          "name": "field_056",
+          "label": "List item: Teacher time is redirected: less repetitive objective markin",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_057",
+          "label": "List item: Formatting becomes functional: clear layouts support scannin",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_058",
+          "label": "List item: Preparation stays aligned: review materials connect classroo",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_059",
+          "label": "List item: Automation remains selective: technology supports the proces",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_060",
+          "label": "Heading: Current status",
+          "type": "string"
+        },
+        {
+          "name": "field_061",
+          "label": "Text: ZipGrade is currently used for objective examinations at the Pre-",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_062",
+          "label": "Heading: Reflection",
+          "type": "string"
+        },
+        {
+          "name": "field_063",
+          "label": "Text: Assessment modernization does not require automating everything. ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_064",
+          "label": "Label: Privacy and assessment security",
+          "type": "string"
+        },
+        {
+          "name": "field_065",
+          "label": "Text: No student records, live exam questions, answer keys, or confiden",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_066",
+          "label": "Label: At a glance",
+          "type": "string"
+        },
+        {
+          "name": "field_067",
+          "label": "Heading: Assessment operations",
+          "type": "string"
+        },
+        {
+          "name": "field_068",
+          "label": "Label: Design principle",
+          "type": "string"
+        },
+        {
+          "name": "field_069",
+          "label": "Heading: Automate handling, not judgment.",
+          "type": "string"
+        },
+        {
+          "name": "field_070",
+          "label": "Text: Use technology for repetitive objective work and preserve teacher",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        }
+      ]
+    },
+    {
+      "name": "projects-calendar-automation",
+      "label": "Project: Calendar Automation",
+      "type": "file",
+      "path": "content/projects-calendar-automation.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 05 • Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Semester Calendar Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: A recurring administrative problem evolved from a personal AppleS",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: Project evolution",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Label: Version 1 • Legacy",
+          "type": "string"
+        },
+        {
+          "name": "field_008",
+          "label": "Heading: AppleScript workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Text: Read timetable data from Excel or Numbers, created class and teac",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Label: Established workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Version 2 • Current",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Heading: Python + native macOS app",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Text: Reads Excel directly, validates the complete event plan, previews",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Built and tested",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Version 3 • Roadmap",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Heading: JavaScript web app",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Text: Move the conversion into a browser so the workflow can become eas",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Planned next",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Heading: Challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Text: At the beginning of each semester, teaching schedules arrive in s",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_021",
+          "label": "Heading: Current solution",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Text: I replaced the multi-application process with Timetable to ICS, a",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_023",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Label: Choose",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Select the Excel timetable. The app reads it without changing the",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: Configure",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Label: Choose the worksheet, semester dates, and output location.",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Label: Review",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Label: Check class and teacher counts, aliases, date range, and any vali",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: Create",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Label: Generate a new timestamped folder containing class calendars, tea",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Heading: Anonymized transformation",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Text: The simplified example below shows the information flow without u",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_037",
+          "label": "Label: Excel input",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Label: Fictional example",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Label: Teacher",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Label: Class",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Label: Day",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Label: Time",
+          "type": "string"
+        },
+        {
+          "name": "field_043",
+          "label": "Label: Room",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Label: Instructor A",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Label: Class A",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Label: Mon",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Label: 08:30",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: Room 101",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Label: Instructor A",
+          "type": "string"
+        },
+        {
+          "name": "field_050",
+          "label": "Label: Class B",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Label: Wed",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Label: 10:10",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Label: Room 204",
+          "type": "string"
+        },
+        {
+          "name": "field_054",
+          "label": "Label: Instructor B",
+          "type": "string"
+        },
+        {
+          "name": "field_055",
+          "label": "Label: Class C",
+          "type": "string"
+        },
+        {
+          "name": "field_056",
+          "label": "Label: Fri",
+          "type": "string"
+        },
+        {
+          "name": "field_057",
+          "label": "Label: 13:30",
+          "type": "string"
+        },
+        {
+          "name": "field_058",
+          "label": "Label: Room 305",
+          "type": "string"
+        },
+        {
+          "name": "field_059",
+          "label": "Label: ICS output",
+          "type": "string"
+        },
+        {
+          "name": "field_060",
+          "label": "Label: Recurring events",
+          "type": "string"
+        },
+        {
+          "name": "field_061",
+          "label": "Label: Mon",
+          "type": "string"
+        },
+        {
+          "name": "field_062",
+          "label": "Label: Room 101",
+          "type": "string"
+        },
+        {
+          "name": "field_063",
+          "label": "Label: Tue",
+          "type": "string"
+        },
+        {
+          "name": "field_064",
+          "label": "Label: Wed",
+          "type": "string"
+        },
+        {
+          "name": "field_065",
+          "label": "Label: Room 204",
+          "type": "string"
+        },
+        {
+          "name": "field_066",
+          "label": "Label: Thu",
+          "type": "string"
+        },
+        {
+          "name": "field_067",
+          "label": "Label: Fri",
+          "type": "string"
+        },
+        {
+          "name": "field_068",
+          "label": "Label: Room 305",
+          "type": "string"
+        },
+        {
+          "name": "field_069",
+          "label": "Label: Verified end-to-end result",
+          "type": "string"
+        },
+        {
+          "name": "field_070",
+          "label": "Text: Using a supplied semester workbook, the current app produced 28 c",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_071",
+          "label": "Heading: What improved in the macOS app",
+          "type": "string"
+        },
+        {
+          "name": "field_072",
+          "label": "List item: Direct Excel input: the app reads XLSX or XLSM workbooks wit",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_073",
+          "label": "List item: No automatic calendar changes: it creates files for review a",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_074",
+          "label": "List item: Validation before export: malformed dates, incomplete timeta",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_075",
+          "label": "List item: Review screen: users confirm the worksheet, dates, counts, t",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_076",
+          "label": "List item: Safer output: every run creates a new timestamped folder, so",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_077",
+          "label": "List item: Portable calendar files: recurring ICS events work with Appl",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_078",
+          "label": "List item: Offline operation: the conversion engine uses Python’s stand",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_079",
+          "label": "Heading: Validation",
+          "type": "string"
+        },
+        {
+          "name": "field_080",
+          "label": "Text: The current Python conversion engine passes 14 automated tests co",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_081",
+          "label": "Heading: Next version: JavaScript web app",
+          "type": "string"
+        },
+        {
+          "name": "field_082",
+          "label": "Text: The next planned version will move the workflow into a web browse",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_083",
+          "label": "Text: This remains a roadmap item, not a completed product. Privacy wil",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_084",
+          "label": "Heading: Reach and limits",
+          "type": "string"
+        },
+        {
+          "name": "field_085",
+          "label": "Text: The earlier workflow was used for semester calendar setup and its",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_086",
+          "label": "Heading: Privacy by design",
+          "type": "string"
+        },
+        {
+          "name": "field_087",
+          "label": "Text: The public example is fictional. Real teacher names, class assign",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_088",
+          "label": "Heading: Lesson learned",
+          "type": "string"
+        },
+        {
+          "name": "field_089",
+          "label": "Text: Automation improves in stages. First, solve the recurring problem",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_090",
+          "label": "Label: Current macOS app",
+          "type": "string"
+        },
+        {
+          "name": "field_091",
+          "label": "Label: 28 class files",
+          "type": "string"
+        },
+        {
+          "name": "field_092",
+          "label": "Label: verified end-to-end output",
+          "type": "string"
+        },
+        {
+          "name": "field_093",
+          "label": "Label: 6 teacher files",
+          "type": "string"
+        },
+        {
+          "name": "field_094",
+          "label": "Label: verified end-to-end output",
+          "type": "string"
+        },
+        {
+          "name": "field_095",
+          "label": "Label: 168 event copies",
+          "type": "string"
+        },
+        {
+          "name": "field_096",
+          "label": "Label: distinct recurring class and teacher events",
+          "type": "string"
+        },
+        {
+          "name": "field_097",
+          "label": "Label: 14 tests passed",
+          "type": "string"
+        },
+        {
+          "name": "field_098",
+          "label": "Label: automated conversion-engine checks",
+          "type": "string"
+        },
+        {
+          "name": "field_099",
+          "label": "Label: 0 warnings",
+          "type": "string"
+        },
+        {
+          "name": "field_100",
+          "label": "Label: in the verified timetable run",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "projects-centralized-attendance",
+      "label": "Project: Centralized Attendance",
+      "type": "file",
+      "path": "content/projects-centralized-attendance.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 04 • Programme Systems",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Centralized Attendance Tracking",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: A shared source that turns daily attendance entry into programme-",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: Challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: Attendance was previously maintained separately by individual tea",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Heading: Design response",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Text: I designed a shared semester workbook that combines the programme",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Heading: From separate records to shared visibility",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: One roster",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Teachers, levels, classes, and students are organized in one shar",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Daily entry",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: Instructors record one of four agreed attendance statuses for eac",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Automatic totals",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Label: Formulas count the recorded statuses and calculate the attendance",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Programme review",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: The manager can filter the consolidated file and identify pattern",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Heading: Anonymized system view",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Text: This reconstruction follows the structure of the completed workin",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Semester attendance",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: Anonymized reconstruction",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: Instructor",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Label: Level",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Label: Class",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Label: Student",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: ❌",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: ⏳",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Label: 📝",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Label: Mark",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Label: 6 Mar",
+          "type": "string"
+        },
+        {
+          "name": "field_037",
+          "label": "Label: 9 Mar",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Label: 10 Mar",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Label: 11 Mar",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Label: Instructor A",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Label: Pre-Int",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Label: Class A",
+          "type": "string"
+        },
+        {
+          "name": "field_043",
+          "label": "Label: Student 001",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Label: 3",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Label: 1",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: 20",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_050",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Label: 📝",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Label: Instructor A",
+          "type": "string"
+        },
+        {
+          "name": "field_054",
+          "label": "Label: Pre-Int",
+          "type": "string"
+        },
+        {
+          "name": "field_055",
+          "label": "Label: Class A",
+          "type": "string"
+        },
+        {
+          "name": "field_056",
+          "label": "Label: Student 002",
+          "type": "string"
+        },
+        {
+          "name": "field_057",
+          "label": "Label: 2",
+          "type": "string"
+        },
+        {
+          "name": "field_058",
+          "label": "Label: 1",
+          "type": "string"
+        },
+        {
+          "name": "field_059",
+          "label": "Label: 1",
+          "type": "string"
+        },
+        {
+          "name": "field_060",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_061",
+          "label": "Label: 18.5",
+          "type": "string"
+        },
+        {
+          "name": "field_062",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_063",
+          "label": "Label: ❌",
+          "type": "string"
+        },
+        {
+          "name": "field_064",
+          "label": "Label: ⏳",
+          "type": "string"
+        },
+        {
+          "name": "field_065",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_066",
+          "label": "Label: Instructor B",
+          "type": "string"
+        },
+        {
+          "name": "field_067",
+          "label": "Label: Elementary",
+          "type": "string"
+        },
+        {
+          "name": "field_068",
+          "label": "Label: Class B",
+          "type": "string"
+        },
+        {
+          "name": "field_069",
+          "label": "Label: Student 003",
+          "type": "string"
+        },
+        {
+          "name": "field_070",
+          "label": "Label: 4",
+          "type": "string"
+        },
+        {
+          "name": "field_071",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_072",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_073",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_074",
+          "label": "Label: 20",
+          "type": "string"
+        },
+        {
+          "name": "field_075",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_076",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_077",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_078",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_079",
+          "label": "Label: Instructor B",
+          "type": "string"
+        },
+        {
+          "name": "field_080",
+          "label": "Label: Elementary",
+          "type": "string"
+        },
+        {
+          "name": "field_081",
+          "label": "Label: Class B",
+          "type": "string"
+        },
+        {
+          "name": "field_082",
+          "label": "Label: Student 004",
+          "type": "string"
+        },
+        {
+          "name": "field_083",
+          "label": "Label: 2",
+          "type": "string"
+        },
+        {
+          "name": "field_084",
+          "label": "Label: 2",
+          "type": "string"
+        },
+        {
+          "name": "field_085",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_086",
+          "label": "Label: 0",
+          "type": "string"
+        },
+        {
+          "name": "field_087",
+          "label": "Label: 18",
+          "type": "string"
+        },
+        {
+          "name": "field_088",
+          "label": "Label: ❌",
+          "type": "string"
+        },
+        {
+          "name": "field_089",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_090",
+          "label": "Label: ❌",
+          "type": "string"
+        },
+        {
+          "name": "field_091",
+          "label": "Label: ✅",
+          "type": "string"
+        },
+        {
+          "name": "field_092",
+          "label": "Label: What the working workbook demonstrates",
+          "type": "string"
+        },
+        {
+          "name": "field_093",
+          "label": "Text: The completed previous-semester file consolidates approximately 7",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_094",
+          "label": "Heading: Operational value",
+          "type": "string"
+        },
+        {
+          "name": "field_095",
+          "label": "List item: Consistency: all participating instructors use the same stat",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_096",
+          "label": "List item: Visibility: the programme manager can review records across ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_097",
+          "label": "List item: Timeliness: concerns can be identified during the semester r",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_098",
+          "label": "List item: Continuity: the workbook provides one maintained semester re",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_099",
+          "label": "List item: Practical adoption: account, SharePoint, and classroom-devic",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_100",
+          "label": "Heading: Reach and limits",
+          "type": "string"
+        },
+        {
+          "name": "field_101",
+          "label": "Text: The system is used daily by seven instructors and the programme m",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_102",
+          "label": "Heading: Privacy by design",
+          "type": "string"
+        },
+        {
+          "name": "field_103",
+          "label": "Text: The public portfolio shows only an anonymized reconstruction. The",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_104",
+          "label": "Heading: Lesson learned",
+          "type": "string"
+        },
+        {
+          "name": "field_105",
+          "label": "Text: Centralizing records is only the first step. A system creates val",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_106",
+          "label": "Label: Verified reach",
+          "type": "string"
+        },
+        {
+          "name": "field_107",
+          "label": "Label: 7 instructors",
+          "type": "string"
+        },
+        {
+          "name": "field_108",
+          "label": "Label: daily users",
+          "type": "string"
+        },
+        {
+          "name": "field_109",
+          "label": "Label: 1 manager",
+          "type": "string"
+        },
+        {
+          "name": "field_110",
+          "label": "Label: programme visibility",
+          "type": "string"
+        },
+        {
+          "name": "field_111",
+          "label": "Label: 700–800 students",
+          "type": "string"
+        },
+        {
+          "name": "field_112",
+          "label": "Label: programme population each semester",
+          "type": "string"
+        },
+        {
+          "name": "field_113",
+          "label": "Label: 180 columns",
+          "type": "string"
+        },
+        {
+          "name": "field_114",
+          "label": "Label: roster, calculations, and semester dates",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "projects-digital-enablement",
+      "label": "Project: Digital Enablement",
+      "type": "file",
+      "path": "content/projects-digital-enablement.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 07 • Faculty Support",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Digital Enablement and Faculty Support",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: Helping colleagues reach shared teaching systems through the acco",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: The last mile of educational technology",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: A well-designed curriculum or digital system has little value if ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Text: My contribution has been practical and informal: identify the poi",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_009",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_010",
+          "label": "Label: Identity",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Account and sign-in",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Authentication",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Verification access",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: Shared files",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Label: SharePoint and OneDrive",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Label: Device",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: Phone or computer",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: 05",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Classroom",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Label: Open, teach, and update",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Heading: Support in practice",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Accounts",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Heading: Microsoft 365 access",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Text: Help colleagues sign in to programme accounts and complete the au",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_028",
+          "label": "Label: Shared work",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Heading: SharePoint and OneDrive",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Text: Confirm that teaching files open from shared locations and help r",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_031",
+          "label": "Label: Classrooms",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Heading: Computer setup",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Text: Prepare or troubleshoot classroom computers so instructors can re",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_034",
+          "label": "Label: Devices",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Heading: Practical workarounds",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Text: Adapt the access path when personal devices, regional app availab",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_037",
+          "label": "Label: Equipment",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Heading: Resource reuse",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Text: Repurpose available computers and personally supplied older equip",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_040",
+          "label": "Label: Adoption",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Heading: Follow-through",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Text: Support colleagues after initial setup so shared attendance, sche",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_043",
+          "label": "Heading: A problem-solving workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Label: 1",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Label: Observe the failure",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Text: Start with what the colleague sees, not an assumed technical caus",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_047",
+          "label": "Label: 2",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: Locate the barrier",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Text: Separate account, permission, authentication, software, device, a",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_050",
+          "label": "Label: 3",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Label: Create the shortest working path",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Text: Use the simplest reliable solution available in that environment.",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_053",
+          "label": "Label: 4",
+          "type": "string"
+        },
+        {
+          "name": "field_054",
+          "label": "Label: Test where teaching happens",
+          "type": "string"
+        },
+        {
+          "name": "field_055",
+          "label": "Text: Confirm access on the classroom computer or personal device that ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_056",
+          "label": "Label: 5",
+          "type": "string"
+        },
+        {
+          "name": "field_057",
+          "label": "Label: Strengthen the wider system",
+          "type": "string"
+        },
+        {
+          "name": "field_058",
+          "label": "Text: Use recurring support problems to improve shared instructions, fi",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_059",
+          "label": "Heading: From individual support to programme reliability",
+          "type": "string"
+        },
+        {
+          "name": "field_060",
+          "label": "Text: The support is often delivered one person and one device at a tim",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_061",
+          "label": "Label: Shared workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_062",
+          "label": "Label: Centralized Attendance",
+          "type": "string"
+        },
+        {
+          "name": "field_063",
+          "label": "Label: Daily access to a common record",
+          "type": "string"
+        },
+        {
+          "name": "field_064",
+          "label": "Label: Teaching resources",
+          "type": "string"
+        },
+        {
+          "name": "field_065",
+          "label": "Label: Eight-Stage Lessons",
+          "type": "string"
+        },
+        {
+          "name": "field_066",
+          "label": "Label: Current materials available in class",
+          "type": "string"
+        },
+        {
+          "name": "field_067",
+          "label": "Label: Scheduling",
+          "type": "string"
+        },
+        {
+          "name": "field_068",
+          "label": "Label: Calendar Automation",
+          "type": "string"
+        },
+        {
+          "name": "field_069",
+          "label": "Label: Importable schedules across devices",
+          "type": "string"
+        },
+        {
+          "name": "field_070",
+          "label": "Heading: What this work demonstrates",
+          "type": "string"
+        },
+        {
+          "name": "field_071",
+          "label": "List item: Technology adoption: implementation includes helping real pe",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_072",
+          "label": "List item: Operational empathy: solutions begin with the colleague’s ac",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_073",
+          "label": "List item: Persistence: access problems may require repeated support, a",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_074",
+          "label": "List item: Systems thinking: recurring individual problems reveal where",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_075",
+          "label": "Label: Scope and role",
+          "type": "string"
+        },
+        {
+          "name": "field_076",
+          "label": "Text: This case study describes informal technical and workflow support",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_077",
+          "label": "Heading: Reflection",
+          "type": "string"
+        },
+        {
+          "name": "field_078",
+          "label": "Text: Technology adoption is often harder than technology creation. The",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_079",
+          "label": "Label: Privacy by design",
+          "type": "string"
+        },
+        {
+          "name": "field_080",
+          "label": "Text: No colleague names, account details, private teaching files, devi",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_081",
+          "label": "Label: Support areas",
+          "type": "string"
+        },
+        {
+          "name": "field_082",
+          "label": "Heading: Access before features",
+          "type": "string"
+        },
+        {
+          "name": "field_083",
+          "label": "Label: Design principle",
+          "type": "string"
+        },
+        {
+          "name": "field_084",
+          "label": "Heading: A tool is useful only when people can reach it.",
+          "type": "string"
+        },
+        {
+          "name": "field_085",
+          "label": "Text: Design and support the complete path from account access to class",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        }
+      ]
+    },
+    {
+      "name": "projects-eight-stage-framework",
+      "label": "Project: Eight Stage Framework",
+      "type": "file",
+      "path": "content/projects-eight-stage-framework.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 01 • Curriculum",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Eight-Stage Lesson Framework",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: A standardized architecture for classroom-ready 80-minute univers",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: Challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: Early lesson materials varied in pacing, completeness, formatting",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Heading: Design response",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Text: I concluded that an 80-minute lesson needed approximately eight s",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Heading: How it works",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: Define the outcome and CEFR-appropriate language target.",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: Sequence approximately eight stages across the available time.",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: Prepare activities, teacher guidance, answers, visuals, and audio",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: Teach the lesson and observe pacing, clarity, and difficulty.",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Revise the source lesson for the next class or semester.",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Heading: A complete eight-stage example",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Text: This example comes from an anonymized lesson on city facilities a",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_018",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Label: Picture vocabulary",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Directions vocabulary",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Frequency practice",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_028",
+          "label": "Label: Reading",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_030",
+          "label": "Label: 05",
+          "type": "string"
+        },
+        {
+          "name": "field_031",
+          "label": "Label: Grammar in context",
+          "type": "string"
+        },
+        {
+          "name": "field_032",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_033",
+          "label": "Label: 06",
+          "type": "string"
+        },
+        {
+          "name": "field_034",
+          "label": "Label: Guided writing",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_036",
+          "label": "Label: 07",
+          "type": "string"
+        },
+        {
+          "name": "field_037",
+          "label": "Label: Information-gap speaking",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Label: 08",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Label: Proposal and production",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Label: 10 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Heading: Evidence from the print-ready team file",
+          "type": "string"
+        },
+        {
+          "name": "field_043",
+          "label": "Text: These pages come from the completed 49-page Unit 6: Places, Facil",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_044",
+          "label": "Label: Stage 1: accessible entry point.",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Label: Stage 7: structured interaction.",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Label: Stage 8: independent production.",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Label: Teacher-ready support.",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: What this evidence demonstrates",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Text: One lesson includes a timed sequence, visual anchors, vocabulary,",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_050",
+          "label": "Heading: Reach and reflection",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Text: The framework supports approximately 60 lessons per semester and ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_052",
+          "label": "Heading: Lesson learned",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Text: The best curriculum architecture is specific enough to create con",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_054",
+          "label": "Label: Project summary",
+          "type": "string"
+        },
+        {
+          "name": "field_055",
+          "label": "Heading: Curriculum design",
+          "type": "string"
+        },
+        {
+          "name": "field_056",
+          "label": "Label: 80 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_057",
+          "label": "Label: lesson duration",
+          "type": "string"
+        },
+        {
+          "name": "field_058",
+          "label": "Label: 8 stages",
+          "type": "string"
+        },
+        {
+          "name": "field_059",
+          "label": "Label: approximately ten minutes each",
+          "type": "string"
+        },
+        {
+          "name": "field_060",
+          "label": "Label: 120 lessons",
+          "type": "string"
+        },
+        {
+          "name": "field_061",
+          "label": "Label: maintained annually",
+          "type": "string"
+        },
+        {
+          "name": "field_062",
+          "label": "Label: 49 pages",
+          "type": "string"
+        },
+        {
+          "name": "field_063",
+          "label": "Label: in the illustrated print-ready unit",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "projects-speaking-assessment-platform",
+      "label": "Project: Speaking Assessment Platform",
+      "type": "file",
+      "path": "content/projects-speaking-assessment-platform.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "field_001",
+          "label": "Search engine description",
+          "type": "string"
+        },
+        {
+          "name": "field_002",
+          "label": "Browser tab title",
+          "type": "string"
+        },
+        {
+          "name": "field_003",
+          "label": "Label: Project 02 • Assessment",
+          "type": "string"
+        },
+        {
+          "name": "field_004",
+          "label": "Heading: Speaking Assessment Platform",
+          "type": "string"
+        },
+        {
+          "name": "field_005",
+          "label": "Text: A browser-based examiner interface that combines randomized promp",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_006",
+          "label": "Heading: Challenge",
+          "type": "string"
+        },
+        {
+          "name": "field_007",
+          "label": "Text: One-to-one speaking assessments require an examiner to listen car",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_008",
+          "label": "Heading: Design response",
+          "type": "string"
+        },
+        {
+          "name": "field_009",
+          "label": "Text: I built a focused web application for the Pre-Intermediate speaki",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_010",
+          "label": "Heading: Examiner workflow",
+          "type": "string"
+        },
+        {
+          "name": "field_011",
+          "label": "Label: 01",
+          "type": "string"
+        },
+        {
+          "name": "field_012",
+          "label": "Label: Start a student",
+          "type": "string"
+        },
+        {
+          "name": "field_013",
+          "label": "Label: The timer begins and Part A opens automatically.",
+          "type": "string"
+        },
+        {
+          "name": "field_014",
+          "label": "Label: 02",
+          "type": "string"
+        },
+        {
+          "name": "field_015",
+          "label": "Label: Select prompts",
+          "type": "string"
+        },
+        {
+          "name": "field_016",
+          "label": "Label: A large button presents another randomized prompt within the curr",
+          "type": "string"
+        },
+        {
+          "name": "field_017",
+          "label": "Label: 03",
+          "type": "string"
+        },
+        {
+          "name": "field_018",
+          "label": "Label: Move through parts",
+          "type": "string"
+        },
+        {
+          "name": "field_019",
+          "label": "Label: The second control advances from A to B to C.",
+          "type": "string"
+        },
+        {
+          "name": "field_020",
+          "label": "Label: 04",
+          "type": "string"
+        },
+        {
+          "name": "field_021",
+          "label": "Label: Reset cleanly",
+          "type": "string"
+        },
+        {
+          "name": "field_022",
+          "label": "Label: Finish / New Student returns to Part A and restarts the timer.",
+          "type": "string"
+        },
+        {
+          "name": "field_023",
+          "label": "Heading: Interface evidence",
+          "type": "string"
+        },
+        {
+          "name": "field_024",
+          "label": "Text: The demonstration below reproduces the deployed examiner interfac",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_025",
+          "label": "Label: Designed for attention and speed.",
+          "type": "string"
+        },
+        {
+          "name": "field_026",
+          "label": "Label: What the implementation demonstrates",
+          "type": "string"
+        },
+        {
+          "name": "field_027",
+          "label": "Text: The application is a self-contained HTML, CSS, and JavaScript too",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_028",
+          "label": "Heading: Design decisions",
+          "type": "string"
+        },
+        {
+          "name": "field_029",
+          "label": "List item: One prompt at a time: removes visual clutter and helps the e",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_030",
+          "label": "List item: Randomized selection: varies questions while preventing an i",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_031",
+          "label": "List item: Elapsed-time display: keeps pacing visible without a separat",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_032",
+          "label": "List item: Two-button navigation: limits the examiner's choices to the ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_033",
+          "label": "List item: Responsive layout: adapts the same interface to landscape an",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": false
+          }
+        },
+        {
+          "name": "field_034",
+          "label": "Heading: Reach and limits",
+          "type": "string"
+        },
+        {
+          "name": "field_035",
+          "label": "Text: I use the platform to administer approximately 100–125 five-minut",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_036",
+          "label": "Text: The platform standardizes prompt presentation, timing visibility,",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_037",
+          "label": "Label: View the live application",
+          "type": "string"
+        },
+        {
+          "name": "field_038",
+          "label": "Link destination: View the live application",
+          "type": "string"
+        },
+        {
+          "name": "field_039",
+          "label": "Label: View source on GitHub",
+          "type": "string"
+        },
+        {
+          "name": "field_040",
+          "label": "Link destination: View source on GitHub",
+          "type": "string"
+        },
+        {
+          "name": "field_041",
+          "label": "Heading: Lesson learned",
+          "type": "string"
+        },
+        {
+          "name": "field_042",
+          "label": "Text: Assessment software creates the most value when it removes small ",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "switcher": false,
+            "media": "images"
+          }
+        },
+        {
+          "name": "field_043",
+          "label": "Label: Project summary",
+          "type": "string"
+        },
+        {
+          "name": "field_044",
+          "label": "Heading: Browser-based assessment tool",
+          "type": "string"
+        },
+        {
+          "name": "field_045",
+          "label": "Label: 3 parts",
+          "type": "string"
+        },
+        {
+          "name": "field_046",
+          "label": "Label: one guided examiner flow",
+          "type": "string"
+        },
+        {
+          "name": "field_047",
+          "label": "Label: 5 minutes",
+          "type": "string"
+        },
+        {
+          "name": "field_048",
+          "label": "Label: approximately per student",
+          "type": "string"
+        },
+        {
+          "name": "field_049",
+          "label": "Label: 100–125",
+          "type": "string"
+        },
+        {
+          "name": "field_050",
+          "label": "Label: assessments I administer each semester",
+          "type": "string"
+        },
+        {
+          "name": "field_051",
+          "label": "Label: 3 instructors",
+          "type": "string"
+        },
+        {
+          "name": "field_052",
+          "label": "Label: confirmed users, including me",
+          "type": "string"
+        },
+        {
+          "name": "field_053",
+          "label": "Label: No installation",
+          "type": "string"
+        },
+        {
+          "name": "field_054",
+          "label": "Label: runs in a modern browser",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

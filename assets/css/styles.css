@@ -19,6 +19,9 @@ body { margin: 0; color: var(--ink); background: var(--paper); font-family: Inte
 a { color: var(--blue-dark); }
 a:hover { color: var(--blue); }
 img { max-width: 100%; }
+.cms-rich-text { margin-block: 1em; }
+.cms-rich-text > :first-child { margin-top: 0; }
+.cms-rich-text > :last-child { margin-bottom: 0; }
 .container { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
 .skip-link { position: absolute; left: -9999px; top: 10px; z-index: 100; padding: 10px 14px; color: var(--white); background: var(--ink); }
 .skip-link:focus { left: 10px; }

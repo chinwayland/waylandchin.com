@@ -1,0 +1,2333 @@
+{
+  "index.html": {
+    "content": "content/home.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "url"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "url"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "url"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "url"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "url"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "url"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "url"
+      },
+      "field_042": {
+        "kind": "text"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "url"
+      }
+    }
+  },
+  "education/index.html": {
+    "content": "content/education.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "url"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "url"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_019": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "text"
+      }
+    }
+  },
+  "projects/index.html": {
+    "content": "content/projects.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "text"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "text"
+      },
+      "field_010": {
+        "kind": "url"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "url"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "url"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "url"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "url"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "url"
+      },
+      "field_036": {
+        "kind": "text"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "url"
+      }
+    }
+  },
+  "about/index.html": {
+    "content": "content/about.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "url"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "url"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      }
+    }
+  },
+  "documents/index.html": {
+    "content": "content/documents.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "text"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "text"
+      },
+      "field_010": {
+        "kind": "url"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "url"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "url"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "url"
+      },
+      "field_020": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      }
+    }
+  },
+  "contact/index.html": {
+    "content": "content/contact.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "text",
+        "site": "email"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "text"
+      },
+      "field_010": {
+        "kind": "url",
+        "site": "gmail"
+      },
+      "field_011": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "url"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "url"
+      }
+    }
+  },
+  "projects/ai-assisted-curriculum/index.html": {
+    "content": "content/projects-ai-assisted-curriculum.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "inline"
+      },
+      "field_039": {
+        "kind": "inline"
+      },
+      "field_040": {
+        "kind": "inline"
+      },
+      "field_041": {
+        "kind": "inline"
+      },
+      "field_042": {
+        "kind": "inline"
+      },
+      "field_043": {
+        "kind": "inline"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "text"
+      },
+      "field_050": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_054": {
+        "kind": "text"
+      },
+      "field_055": {
+        "kind": "text"
+      },
+      "field_056": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      }
+    }
+  },
+  "projects/assessment-modernization/index.html": {
+    "content": "content/projects-assessment-modernization.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "text"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "text"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "text"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "text"
+      },
+      "field_054": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_055": {
+        "kind": "text"
+      },
+      "field_056": {
+        "kind": "inline"
+      },
+      "field_057": {
+        "kind": "inline"
+      },
+      "field_058": {
+        "kind": "inline"
+      },
+      "field_059": {
+        "kind": "inline"
+      },
+      "field_060": {
+        "kind": "text"
+      },
+      "field_061": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_062": {
+        "kind": "text"
+      },
+      "field_063": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_064": {
+        "kind": "text"
+      },
+      "field_065": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_066": {
+        "kind": "text"
+      },
+      "field_067": {
+        "kind": "text"
+      },
+      "field_068": {
+        "kind": "text"
+      },
+      "field_069": {
+        "kind": "text"
+      },
+      "field_070": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      }
+    }
+  },
+  "projects/calendar-automation/index.html": {
+    "content": "content/projects-calendar-automation.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "text"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "text"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "text"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "text"
+      },
+      "field_054": {
+        "kind": "text"
+      },
+      "field_055": {
+        "kind": "text"
+      },
+      "field_056": {
+        "kind": "text"
+      },
+      "field_057": {
+        "kind": "text"
+      },
+      "field_058": {
+        "kind": "text"
+      },
+      "field_059": {
+        "kind": "text"
+      },
+      "field_060": {
+        "kind": "text"
+      },
+      "field_061": {
+        "kind": "text"
+      },
+      "field_062": {
+        "kind": "text"
+      },
+      "field_063": {
+        "kind": "text"
+      },
+      "field_064": {
+        "kind": "text"
+      },
+      "field_065": {
+        "kind": "text"
+      },
+      "field_066": {
+        "kind": "text"
+      },
+      "field_067": {
+        "kind": "text"
+      },
+      "field_068": {
+        "kind": "text"
+      },
+      "field_069": {
+        "kind": "text"
+      },
+      "field_070": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_071": {
+        "kind": "text"
+      },
+      "field_072": {
+        "kind": "inline"
+      },
+      "field_073": {
+        "kind": "inline"
+      },
+      "field_074": {
+        "kind": "inline"
+      },
+      "field_075": {
+        "kind": "inline"
+      },
+      "field_076": {
+        "kind": "inline"
+      },
+      "field_077": {
+        "kind": "inline"
+      },
+      "field_078": {
+        "kind": "inline"
+      },
+      "field_079": {
+        "kind": "text"
+      },
+      "field_080": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_081": {
+        "kind": "text"
+      },
+      "field_082": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_083": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_084": {
+        "kind": "text"
+      },
+      "field_085": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_086": {
+        "kind": "text"
+      },
+      "field_087": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_088": {
+        "kind": "text"
+      },
+      "field_089": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_090": {
+        "kind": "text"
+      },
+      "field_091": {
+        "kind": "text"
+      },
+      "field_092": {
+        "kind": "text"
+      },
+      "field_093": {
+        "kind": "text"
+      },
+      "field_094": {
+        "kind": "text"
+      },
+      "field_095": {
+        "kind": "text"
+      },
+      "field_096": {
+        "kind": "text"
+      },
+      "field_097": {
+        "kind": "text"
+      },
+      "field_098": {
+        "kind": "text"
+      },
+      "field_099": {
+        "kind": "text"
+      },
+      "field_100": {
+        "kind": "text"
+      }
+    }
+  },
+  "projects/centralized-attendance/index.html": {
+    "content": "content/projects-centralized-attendance.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "text"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "text"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "text"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "text"
+      },
+      "field_054": {
+        "kind": "text"
+      },
+      "field_055": {
+        "kind": "text"
+      },
+      "field_056": {
+        "kind": "text"
+      },
+      "field_057": {
+        "kind": "text"
+      },
+      "field_058": {
+        "kind": "text"
+      },
+      "field_059": {
+        "kind": "text"
+      },
+      "field_060": {
+        "kind": "text"
+      },
+      "field_061": {
+        "kind": "text"
+      },
+      "field_062": {
+        "kind": "text"
+      },
+      "field_063": {
+        "kind": "text"
+      },
+      "field_064": {
+        "kind": "text"
+      },
+      "field_065": {
+        "kind": "text"
+      },
+      "field_066": {
+        "kind": "text"
+      },
+      "field_067": {
+        "kind": "text"
+      },
+      "field_068": {
+        "kind": "text"
+      },
+      "field_069": {
+        "kind": "text"
+      },
+      "field_070": {
+        "kind": "text"
+      },
+      "field_071": {
+        "kind": "text"
+      },
+      "field_072": {
+        "kind": "text"
+      },
+      "field_073": {
+        "kind": "text"
+      },
+      "field_074": {
+        "kind": "text"
+      },
+      "field_075": {
+        "kind": "text"
+      },
+      "field_076": {
+        "kind": "text"
+      },
+      "field_077": {
+        "kind": "text"
+      },
+      "field_078": {
+        "kind": "text"
+      },
+      "field_079": {
+        "kind": "text"
+      },
+      "field_080": {
+        "kind": "text"
+      },
+      "field_081": {
+        "kind": "text"
+      },
+      "field_082": {
+        "kind": "text"
+      },
+      "field_083": {
+        "kind": "text"
+      },
+      "field_084": {
+        "kind": "text"
+      },
+      "field_085": {
+        "kind": "text"
+      },
+      "field_086": {
+        "kind": "text"
+      },
+      "field_087": {
+        "kind": "text"
+      },
+      "field_088": {
+        "kind": "text"
+      },
+      "field_089": {
+        "kind": "text"
+      },
+      "field_090": {
+        "kind": "text"
+      },
+      "field_091": {
+        "kind": "text"
+      },
+      "field_092": {
+        "kind": "text"
+      },
+      "field_093": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_094": {
+        "kind": "text"
+      },
+      "field_095": {
+        "kind": "inline"
+      },
+      "field_096": {
+        "kind": "inline"
+      },
+      "field_097": {
+        "kind": "inline"
+      },
+      "field_098": {
+        "kind": "inline"
+      },
+      "field_099": {
+        "kind": "inline"
+      },
+      "field_100": {
+        "kind": "text"
+      },
+      "field_101": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_102": {
+        "kind": "text"
+      },
+      "field_103": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_104": {
+        "kind": "text"
+      },
+      "field_105": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_106": {
+        "kind": "text"
+      },
+      "field_107": {
+        "kind": "text"
+      },
+      "field_108": {
+        "kind": "text"
+      },
+      "field_109": {
+        "kind": "text"
+      },
+      "field_110": {
+        "kind": "text"
+      },
+      "field_111": {
+        "kind": "text"
+      },
+      "field_112": {
+        "kind": "text"
+      },
+      "field_113": {
+        "kind": "text"
+      },
+      "field_114": {
+        "kind": "text"
+      }
+    }
+  },
+  "projects/digital-enablement/index.html": {
+    "content": "content/projects-digital-enablement.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_009": {
+        "kind": "text"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_053": {
+        "kind": "text"
+      },
+      "field_054": {
+        "kind": "text"
+      },
+      "field_055": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_056": {
+        "kind": "text"
+      },
+      "field_057": {
+        "kind": "text"
+      },
+      "field_058": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_059": {
+        "kind": "text"
+      },
+      "field_060": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_061": {
+        "kind": "text"
+      },
+      "field_062": {
+        "kind": "text"
+      },
+      "field_063": {
+        "kind": "text"
+      },
+      "field_064": {
+        "kind": "text"
+      },
+      "field_065": {
+        "kind": "text"
+      },
+      "field_066": {
+        "kind": "text"
+      },
+      "field_067": {
+        "kind": "text"
+      },
+      "field_068": {
+        "kind": "text"
+      },
+      "field_069": {
+        "kind": "text"
+      },
+      "field_070": {
+        "kind": "text"
+      },
+      "field_071": {
+        "kind": "inline"
+      },
+      "field_072": {
+        "kind": "inline"
+      },
+      "field_073": {
+        "kind": "inline"
+      },
+      "field_074": {
+        "kind": "inline"
+      },
+      "field_075": {
+        "kind": "text"
+      },
+      "field_076": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_077": {
+        "kind": "text"
+      },
+      "field_078": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_079": {
+        "kind": "text"
+      },
+      "field_080": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_081": {
+        "kind": "text"
+      },
+      "field_082": {
+        "kind": "text"
+      },
+      "field_083": {
+        "kind": "text"
+      },
+      "field_084": {
+        "kind": "text"
+      },
+      "field_085": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      }
+    }
+  },
+  "projects/eight-stage-framework/index.html": {
+    "content": "content/projects-eight-stage-framework.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "text"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "text"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "text"
+      },
+      "field_030": {
+        "kind": "text"
+      },
+      "field_031": {
+        "kind": "text"
+      },
+      "field_032": {
+        "kind": "text"
+      },
+      "field_033": {
+        "kind": "text"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "text"
+      },
+      "field_036": {
+        "kind": "text"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "text"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "text"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "text"
+      },
+      "field_043": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_054": {
+        "kind": "text"
+      },
+      "field_055": {
+        "kind": "text"
+      },
+      "field_056": {
+        "kind": "text"
+      },
+      "field_057": {
+        "kind": "text"
+      },
+      "field_058": {
+        "kind": "text"
+      },
+      "field_059": {
+        "kind": "text"
+      },
+      "field_060": {
+        "kind": "text"
+      },
+      "field_061": {
+        "kind": "text"
+      },
+      "field_062": {
+        "kind": "text"
+      },
+      "field_063": {
+        "kind": "text"
+      }
+    }
+  },
+  "projects/speaking-assessment-platform/index.html": {
+    "content": "content/projects-speaking-assessment-platform.json",
+    "fields": {
+      "field_001": {
+        "kind": "text"
+      },
+      "field_002": {
+        "kind": "text"
+      },
+      "field_003": {
+        "kind": "text"
+      },
+      "field_004": {
+        "kind": "text"
+      },
+      "field_005": {
+        "kind": "paragraph",
+        "opening": "<p class=\"lead\">"
+      },
+      "field_006": {
+        "kind": "text"
+      },
+      "field_007": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_008": {
+        "kind": "text"
+      },
+      "field_009": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_010": {
+        "kind": "text"
+      },
+      "field_011": {
+        "kind": "text"
+      },
+      "field_012": {
+        "kind": "text"
+      },
+      "field_013": {
+        "kind": "text"
+      },
+      "field_014": {
+        "kind": "text"
+      },
+      "field_015": {
+        "kind": "text"
+      },
+      "field_016": {
+        "kind": "text"
+      },
+      "field_017": {
+        "kind": "text"
+      },
+      "field_018": {
+        "kind": "text"
+      },
+      "field_019": {
+        "kind": "text"
+      },
+      "field_020": {
+        "kind": "text"
+      },
+      "field_021": {
+        "kind": "text"
+      },
+      "field_022": {
+        "kind": "text"
+      },
+      "field_023": {
+        "kind": "text"
+      },
+      "field_024": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_025": {
+        "kind": "text"
+      },
+      "field_026": {
+        "kind": "text"
+      },
+      "field_027": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_028": {
+        "kind": "text"
+      },
+      "field_029": {
+        "kind": "inline"
+      },
+      "field_030": {
+        "kind": "inline"
+      },
+      "field_031": {
+        "kind": "inline"
+      },
+      "field_032": {
+        "kind": "inline"
+      },
+      "field_033": {
+        "kind": "inline"
+      },
+      "field_034": {
+        "kind": "text"
+      },
+      "field_035": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_036": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_037": {
+        "kind": "text"
+      },
+      "field_038": {
+        "kind": "url"
+      },
+      "field_039": {
+        "kind": "text"
+      },
+      "field_040": {
+        "kind": "url"
+      },
+      "field_041": {
+        "kind": "text"
+      },
+      "field_042": {
+        "kind": "paragraph",
+        "opening": "<p>"
+      },
+      "field_043": {
+        "kind": "text"
+      },
+      "field_044": {
+        "kind": "text"
+      },
+      "field_045": {
+        "kind": "text"
+      },
+      "field_046": {
+        "kind": "text"
+      },
+      "field_047": {
+        "kind": "text"
+      },
+      "field_048": {
+        "kind": "text"
+      },
+      "field_049": {
+        "kind": "text"
+      },
+      "field_050": {
+        "kind": "text"
+      },
+      "field_051": {
+        "kind": "text"
+      },
+      "field_052": {
+        "kind": "text"
+      },
+      "field_053": {
+        "kind": "text"
+      },
+      "field_054": {
+        "kind": "text"
+      }
+    }
+  }
+}

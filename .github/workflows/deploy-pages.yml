@@ -24,6 +24,9 @@ jobs:
       - name: Check out personal website
         uses: actions/checkout@v4
 
+      - name: Validate CMS content
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
+
       - name: Check out travel calendar app
         uses: actions/checkout@v4
         with:
@@ -89,7 +92,14 @@ jobs:
             --exclude='.git*' \
             --exclude='.github/' \
             --exclude='.calendar-source/' \
+            --exclude='.pages.yml' \
+            --exclude='content/' \
+            --exclude='templates/' \
+            --exclude='scripts/' \
+            --exclude='README.md' \
+            --exclude='EDITING.md' \
             ./ "$RUNNER_TEMP/site/"
+          python3 scripts/build-content.py --output "$RUNNER_TEMP/site"
           mkdir -p "$RUNNER_TEMP/site/travel-calendar"
           cp -R .calendar-source/dist/client/. "$RUNNER_TEMP/site/travel-calendar/"
 
