@@ -37,9 +37,9 @@ def render(template, content, specs, site):
         if key.startswith('site.'):
             return html.escape(site[key[5:]], quote=True)
         spec=specs[key]
-        value=content[key]
         if spec.get('site')=='email':value=site['email']
         elif spec.get('site')=='gmail':value='https://mail.google.com/mail/?view=cm&fs=1&to='+quote(site['email'],safe='')
+        else:value=content[key]
         if not isinstance(value,str):raise ValueError(f'{key} must contain text')
         kind=spec['kind']
         if kind=='url':return html.escape(safe_url(value),quote=True)

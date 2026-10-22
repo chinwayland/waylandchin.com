@@ -39,4 +39,9 @@ class ContentTests(unittest.TestCase):
         self.assertIn('new@example.com',result)
         self.assertIn('to=new%40example.com',result)
 
+    def test_site_managed_contact_fields_need_no_page_values(self):
+        result=build.render('{{email}} {{gmail}}',{}, {'email':{'kind':'text','site':'email'},'gmail':{'kind':'url','site':'gmail'}},{'email':'new@example.com'})
+        self.assertIn('new@example.com',result)
+        self.assertIn('to=new%40example.com',result)
+
 if __name__=='__main__':unittest.main()
