@@ -227,7 +227,7 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 .footer-grid a { color: #dce6ee; }
 .footer-bottom { margin-top: 32px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); color: #8fa1b2; font-size: .85rem; }
 
-@media (max-width: 860px) {
+@media (max-width: 1060px) {
   .menu-ready .menu-button { display: block; min-height: 44px; }
   html:not(.menu-ready) .header-inner { flex-wrap: wrap; padding-block: 14px; }
   html:not(.menu-ready) .site-nav { flex-wrap: wrap; }
