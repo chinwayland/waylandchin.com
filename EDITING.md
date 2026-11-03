@@ -27,3 +27,7 @@ All 13 existing content pages have editable wording, formatted paragraphs and li
 ## If an edit does not appear
 
 Check https://github.com/chinwayland/waylandchin.com/actions . A failed build keeps the previously deployed site live. GitHub history retains prior versions, so an accidental edit can be reverted. Saving content also rebuilds the travel calendar; a calendar build failure can delay publication.
+
+## Language convention
+
+Use U.S. English for all public website copy, including captions, metadata, and accessibility labels. For example, use “program” and “neighborhood.” Preserve official institution names, qualification titles, and quoted source material.
