@@ -268,3 +268,12 @@ h3 { margin: 0 0 12px; font-size: 1.55rem; }
 .contact-email { overflow-wrap: anywhere; user-select: text; }
 
 a:focus-visible, button:focus-visible { outline: 3px solid #1f6aa5; outline-offset: 4px; }
+
+/* Native links cover their card, including its padding and descriptive text. */
+.linked-card { position: relative; isolation: isolate; }
+.sidebar-card.linked-card { position: sticky; }
+.linked-card .card-primary-link::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: inherit; cursor: pointer; }
+.linked-card .card-secondary-control { position: relative; z-index: 2; }
+.linked-card:hover { border-color: var(--blue); }
+.linked-card:has(.card-primary-link:focus-visible) { outline: 3px solid var(--blue); outline-offset: 4px; }
+@media (max-width: 1060px) { .sidebar-card.linked-card { position: static; } }
