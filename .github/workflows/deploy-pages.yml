@@ -73,14 +73,14 @@ jobs:
       - name: Build travel calendar
         working-directory: .calendar-source
         env:
-          NEXT_PUBLIC_BASE_PATH: /travel-calendar
-          NEXT_PUBLIC_SITE_URL: https://waylandchin.com/travel-calendar
+          NEXT_PUBLIC_BASE_PATH: /travel
+          NEXT_PUBLIC_SITE_URL: https://waylandchin.com/travel
         run: pnpm build
 
       - name: Prepare calendar for GitHub Pages
         working-directory: .calendar-source
         env:
-          NEXT_PUBLIC_BASE_PATH: /travel-calendar
+          NEXT_PUBLIC_BASE_PATH: /travel
         run: pnpm pages:prepare
 
       - name: Assemble complete website artifact
@@ -98,8 +98,25 @@ jobs:
             --exclude='EDITING.md' \
             ./ "$RUNNER_TEMP/site/"
           python3 scripts/build-content.py --output "$RUNNER_TEMP/site"
+          mkdir -p "$RUNNER_TEMP/site/travel"
+          cp -R .calendar-source/dist/client/. "$RUNNER_TEMP/site/travel/"
+
           mkdir -p "$RUNNER_TEMP/site/travel-calendar"
-          cp -R .calendar-source/dist/client/. "$RUNNER_TEMP/site/travel-calendar/"
+          cat > "$RUNNER_TEMP/site/travel-calendar/index.html" <<'HTML'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="robots" content="noindex, nofollow">
+            <link rel="canonical" href="https://waylandchin.com/travel/">
+            <title>Travel Calendar</title>
+            <script>location.replace('/travel/' + location.search + location.hash);</script>
+            <noscript><meta http-equiv="refresh" content="0; url=/travel/"></noscript>
+          </head>
+          <body><p>The calendar has moved to <a href="/travel/">/travel/</a>.</p></body>
+          </html>
+          HTML
 
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
